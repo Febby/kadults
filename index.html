@@ -5,15 +5,15 @@
         <meta charset="utf-8">
         <title>Krav Adults - Trial Class Registration</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/classic.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/classic.date.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
     </head>
     <body>
     
@@ -24,7 +24,7 @@
 				<div class="strip-3"></div>
     		</div>
     	</div>
-    	
+
     	<a id="top"></a>
 
     	<!-- nav start -->
@@ -36,8 +36,8 @@
 						<div class="row">
 							<div class="col-md-2">
 								<a href="index.html">
-									<img alt="Logo" class="logo logo-light" src="img/logo.png">
-									<img alt="Logo" class="logo logo-dark" src="img/logo-dark.png">
+									<img alt="Logo" class="logo logo-light" src="img/kmg-white.png">
+									<img alt="Logo" class="logo logo-dark" src="img/kmg-sg.png">
 								</a>
 							</div>
 					
@@ -48,7 +48,8 @@
 									<li><a class="inner-link" href="#about" target="default">about</a></li>
 									<li><a class="inner-link" href="#schedule" target="default">schedule</a></li>
 									<li><a class="inner-link" href="#location" target="default">location</a></li>
-									<li><a class="inner-link" href="#register" target="default">register</a></li>
+									<li><a class="inner-link hidden-xs" href="#home" target="default">register</a></li>
+									<li><a class="inner-link visible-xs" href="#register" target="default">register</a></li>
 									<li class="social-link"><a href="https://www.facebook.com/KMGSingapore?fref=ts"><i class="icon social_facebook"></i></a></li>
 									<li class="social-link"><a href="https://www.youtube.com/channel/UCjnICQSqYmX8TsFPaWjDwpQ"><i class="icon social_youtube"></i></a></li>
 								</ul>
@@ -61,7 +62,7 @@
 					<div class="bottom-border"></div>
 			
 					<div class="sidebar-menu">
-						<img alt="Logo" class="logo" src="img/logo.png">
+						<img alt="Logo" class="logo" src="img/kmg-sg.png">
 						<div class="bottom-border"></div>
 						<div class="sidebar-content">
 					
@@ -71,7 +72,7 @@
 									<li><a class="inner-link" href="#about" target="default">about</a></li>
 									<li><a class="inner-link" href="#schedule" target="default">schedule</a></li>
 									<li><a class="inner-link" href="#location" target="default">location</a></li>
-									<li><a class="inner-link" href="#register" target="default">register</a></li>
+									<li><a class="inner-link" href="#home" target="default">register</a></li>
 									<li class="social-link"><a href="https://www.facebook.com/KMGSingapore?fref=ts"><i class="icon social_facebook"></i></a></li>
 									<li class="social-link"><a href="https://www.youtube.com/channel/UCjnICQSqYmX8TsFPaWjDwpQ"><i class="icon social_youtube"></i></a></li>
 									<li class="social-link"><a href="http://instagram.com/kmgsingapore"><i class="icon social_instagram"></i></a></li>
@@ -80,9 +81,9 @@
 					
 							<div class="widget">
 								<ul class="social-profiles">
-									<li><a href="#"><i class="icon social_facebook"></i></a></li>
-									<li><a href="#"><i class="icon social_youtube"></i></a></li>
-									<li><a href="#"><i class="icon social_instagram"></i></a></li>
+									<li><a href="https://www.facebook.com/KMGSingapore?fref=ts"><i class="icon social_facebook"></i></a></li>
+									<li><a href="https://www.youtube.com/channel/UCjnICQSqYmX8TsFPaWjDwpQ"><i class="icon social_youtube"></i></a></li>
+									<li><a href="http://instagram.com/kmgsingapore"><i class="icon social_instagram"></i></a></li>
 								</ul>
 							</div>
 					
@@ -111,25 +112,22 @@
 					
 					<li class="register-header">
 						<div class="background-image-holder parallax-background">
-							<img class="background-image" alt="Background Image" src="img/hero6.jpg">
+							<img class="background-image" alt="Krav Maga Singapore" src="img/hero-img.jpg">
 						</div>
 					
 						<div class="container">
 							<div class="row">
-								<div class="col-md-6 col-sm-6">
+								<div class="col-md-6 col-sm-6 hidden-xs">
 									<h1 class="large-h1 text-white">Register For Krav Maga Trial Class Now!</h1>
 									<span class="lead text-white">For just SGD$18, you can try out Krav Maga. What are you waiting for?!</span>
 								</div>
 								
 								<!-- registration form start -->
-								<div class="col-md-5 col-md-offset-1 col-sm-6">
+								<div class="col-md-5 col-md-offset-1 col-sm-6 hidden-xs">
 									<form class="register email-form">
 										<h1 class="text-white">Register Now</h1>
 										<div class="col-sm-6">
-											<input class="form-name validate-required" type="text" placeholder="First Name" name="firstname">
-										</div>
-										<div class="col-sm-6">
-											<input class="form-name validate-required" type="text" placeholder="Last Name" name="lastname">
+											<input class="form-name validate-required" type="text" placeholder="Your Full Name" name="fullname">
 										</div>
 										<div class="col-sm-6">
 											<input class="form-name validate-required" type="text" placeholder="NRIC/Passport No." name="nric-passportno">
@@ -138,25 +136,25 @@
 											<input class="form-email validate-email" type="text" placeholder="Email Address" name="email">
 										</div>
 										<div class="col-sm-6">
-											<input id="dobdatepicker" class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
+											<input class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
 										</div>
 										<div class="col-sm-6">
 											<input class="form-phone" type="text" placeholder="Phone Number" name="phone">
 										</div>
-										<div class="col-sm-12">			
-											<input id="classdatepicker" class="form-name validate-required" type="text" placeholder="Select Your Trial Class Time" name="schedule">
-										</div>
-										<div class="col-sm-12">
+
+										<div class="col-sm-6">
 											<div class="select-holder">
 												<select class="form-selection validate-required" name="gender">
-													<option value="">Select Gender Type</option>
+													<option value="">Select Gender</option>
 													<option value="Male">Male</option>
 													<option value="Female">Female</option>
 												</select>
 											</div>
 										</div>
-
-										<div class="col-sm-12">
+										<div class="col-sm-6">
+											<input id="classdatepicker" class="form-name validate-required" type="text" placeholder="Trial Class Time" name="schedule">
+										</div>
+										<div class="col-sm-6">
 											<div class="select-holder">
 												<select class="form-selection validate-required" name="ticket">
 													<option value="">Trial Class Type</option>
@@ -171,7 +169,6 @@
 										</div>
 								
 										<div class="col-sm-12">
-											<span>* We process using a 100% secure gateway</span>
 											<div class="form-success"><span>Thank you, your registration has been received!</span></div>
 											<div class="form-error"><span>Validation error, please check all fields</span></div>
 										</div>
@@ -192,9 +189,10 @@
 				<div class="container vertical-align">
 					<div class="row">
 						<div class="col-md-5 col-sm-7">
-							<h1 class="text-white">Meetup is an annual conference featuring prominent web icons.</h1>
+							<h1 class="text-white">What is Krav Maga?</h1>
 							<p class="lead text-white">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+								Krav Maga is the official system of hand-to-hand combat and self-defense employed by the Israeli Defense Forces- (IDF), Mossad, and Shin Bet.
+								Krav Maga training focuses on teaching efficient techniques which are specifically catered to reality based attack situations and specifically designed to get quick results in a short training period.
 							</p>
 						</div>
 					</div><!--end of row-->
@@ -202,12 +200,76 @@
 				
 				<div class="go-right side-image col-sm-4 col-md-6">
 					<div class="background-image-holder">
-						<img class="background-image" alt="About Image" src="img/side1.jpg">
+						<img class="background-image" alt="About Image" src="img/kmg-selfdefense.jpg">
 					</div>
 				</div>
 				
 			</section>
-		
+			<a id="register" class="in-page-link"></a>
+			<section class="mobile-form background-dark hidden-sm hidden-md hidden-lg">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="large-h1 text-white">Register For Krav Maga Trial Class Now!</h1>
+						<span class="lead text-white">For just SGD$18, you can try out Krav Maga. What are you waiting for?!</span>
+					</div>
+
+					<!-- registration form start -->
+					<div class="col-sm-12">
+						<form class="register email-form">
+							<h1 class="text-white">Register Now</h1>
+							<div class="col-sm-12">
+								<input class="form-name validate-required" type="text" placeholder="Your Full Name" name="fullname">
+							</div>
+							<div class="col-sm-12">
+								<input class="form-name validate-required" type="text" placeholder="NRIC/Passport No." name="nric-passportno">
+							</div>
+							<div class="col-sm-12">
+								<input class="form-email validate-email" type="text" placeholder="Email Address" name="email">
+							</div>
+							<div class="col-sm-12">
+								<input class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
+							</div>
+							<div class="col-sm-12">
+								<input class="form-phone" type="text" placeholder="Phone Number" name="phone">
+							</div>
+							<div class="col-sm-12">
+								<input id="m-classdatepicker" class="form-name validate-required" type="text" placeholder="Select Your Trial Class Time" name="schedule">
+							</div>
+							<div class="col-sm-12">
+								<div class="select-holder">
+									<select class="form-selection validate-required" name="gender">
+										<option value="">Select Gender Type</option>
+										<option value="Male">Male</option>
+										<option value="Female">Female</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-sm-12">
+								<div class="select-holder">
+									<select class="form-selection validate-required" name="ticket">
+										<option value="">Trial Class Type</option>
+										<option value="KravAdults18">Krav Maga Adults $18</option>
+									</select>
+								</div>
+							</div>
+
+							<div class="col-sm-12">
+								<input type="submit" value="Register Now" class="btn">
+
+							</div>
+
+							<div class="col-sm-12">
+
+								<div class="form-success"><span>Thank you, your registration has been received!</span></div>
+								<div class="form-error"><span>Validation error, please check all fields</span></div>
+							</div>
+						</form>
+					</div>
+					<!-- registration form end -->
+
+				</div><!--end of row-->
+			</section>
 			
 			<a id="schedule" class="in-page-link"></a>
 
@@ -461,14 +523,62 @@
 				</div><!--end of container-->
 			</section>
 			<!-- schedule end -->
+			<a id="location" class="in-page-link"></a>
+			<section class="duplicatable-content visitor-info background-dark">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-white">How To Get Here?</h1>
+						</div>
+					</div><!--end of row-->
+
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="info-box">
+								<h3 class="text-white">Venue</h3>
+								<p>
+									Upper Serangoon Shopping Centre<br>
+									765 Upper Serangoon Road<br>
+									#01-03/#02-02<br>
+									Singapore 534626<br>
+									<a href="http://www.kmc.sg/">KMG Site</a>
+								</p>
+							</div>
+						</div><!--end of individual info box-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="info-box">
+								<h3 class="text-white">Bus</h3>
+								<p>
+									Nearest Bus stop - Bus 80 81 82 101 107 107m 136 153 <br>
+									1min walk from bus stop b63019
+								</p>
+							</div>
+						</div><!--end of individual info box-->
+
+						<div class="col-md-4 col-sm-6">
+							<div class="info-box">
+								<h3 class="text-white">MRT</h3>
+								<p>
+									Serangoon MRT (NE12/cc13) - 9 mins walk from exit D
+								</p>
+							</div>
+						</div><!--end of individual info box-->
+
+					</div><!--end of row-->
+
+
+				</div><!--end of container-->
+			</section>
 			<section class="instagram preserve-3d">
 		
 				<div class="instafeed" data-user-name="kmgsingapore">
 					<ul></ul>
 				</div>
-		
-				
+
+
 				<div class="container">
+
 					<div class="row">
 						<div class="col-sm-12">
 							<div>
@@ -481,155 +591,12 @@
 				</div><!--end of container-->
 			</section>
 			
-			<a id="location" class="in-page-link"></a>
-			
-			<section class="duplicatable-content">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<h1>Frequently Asked Questions</h1>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-md-3 col-sm-4">
-							<div class="faq-item">
-								<p class="question">
-									What if I need to cancel my booking at late notice?
-								</p>
-							
-								<p>
-									Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-								</p>
-							</div>
-						</div><!--end of individual faq item-->
-					
-						<div class="col-md-3 col-sm-4">
-							<div class="faq-item">
-								<p class="question">
-									Which payment methods do you accept?
-								</p>
-							
-								<p>
-									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla ptariatur. Excepteur sint occaecat
-								</p>
-							</div>
-						</div><!--end of individual faq item-->
-					
-						<div class="col-md-3 col-sm-4">
-							<div class="faq-item">
-								<p class="question">
-									I'd like to purchase tickets for 20 members, is there bulk pricing?
-								</p>
-							
-								<p>
-									At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corruptiex.<br><br>
-									<a href="#">More Info</a>
-								</p>
-							</div>
-						</div><!--end of individual faq item-->
-					
-						<div class="col-md-3 col-sm-4">
-							<div class="faq-item">
-								<p class="question">
-									Is there ample parking at the Meetup venue?
-								</p>
-							
-								<p>
-									Short Answer Yes<br><br>
-									Voluptate velit esse cillum dolore eu fugiat nulla ptariatur. Excepteur sint occaecat
-								</p>
-							</div>
-						</div><!--end of individual faq item-->
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
-			
-			<section class="duplicatable-content visitor-info">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<h1>How To Get Here?</h1>
-							</div>
-						</div><!--end of row-->
-				
-						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/venue.jpg">
-									<h3>Venue</h3>
-									<p>
-										Upper Serangoon Shopping Centre<br>
-										765 Upper Serangoon Road<br>
-										#01-03/#02-02<br>
-										Singapore 534626<br>
-										<a href="http://www.kmc.sg/">KMG Site</a>
-									</p>		
-								</div>
-							</div><!--end of individual info box-->
-					
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/air.jpg">
-									<h3>Bus</h3>
-									<p>
-										Nearest Bus stop - Bus 80 81 82 101 107 107m 136 153 <br>
-										1min walk from bus stop b63019
-									</p>		
-								</div>
-							</div><!--end of individual info box-->
-					
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/travel.jpg">
-									<h3>MRT</h3>
-									<p>
-										Serangoon MRT (NE12/cc13) - 9 mins walk from exit D
-									</p>		
-								</div>
-							</div><!--end of individual info box-->
-					
-						</div><!--end of row-->
-				
 
-					</div><!--end of container-->
-				</section>
-			
-			<a id="subscribe" class="in-page-link"></a>
-			
-			<section class="subscribe-1">
-					<div class="background-image-holder parallax-background">
-						<img class="background-image" alt="Background Image" src="img/hero4.jpg">
-					</div>
-			
-					<div class="container">
-						
-				
-						
-				
-						<div class="row">
-							<div class="footer">
-								<div class="col-sm-12">
-									<div class="top-border"></div>
-								</div>
-								<div class="col-sm-3">
-									<span class="text-white">© Copyright 2014 KMG Singapore</span>
-								</div>
-						
-								<div class="col-sm-9 text-right">
-									<ul class="menu">
-										
-										<li><a class="inner-link back-to-top" href="#top">Back To Top&nbsp;<i class="icon pe-7s-angle-up-circle"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div><!--end of row-->
-					</div><!--end of container-->
-				</section>
+
 		</div>
-		<div class="footer-container"></div>
 				
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+		<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <script src="js/picker.js"></script>
         <script src="js/picker.date.js"></script>
         <script src="js/bootstrap.min.js"></script>

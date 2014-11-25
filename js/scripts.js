@@ -292,28 +292,10 @@ $(window).load(function() {
 
     }, 1000);
 
-    // Mailchimp/Campaign Monitor Mail List Form Scripts
 
-    $('form.mail-list-signup').on('submit', function() {
-
-        var iFrame = $(this).closest('section, header').find('iframe.mail-list-form'),
-
-            userEmail = $(this).find('.signup-email-field').val(),
-        userFullName = $(this).find('.signup-name-field').val(),
-        userFirstName = $(this).find('.signup-first-name-field').val(),
-        userLastName = $(this).find('.signup-last-name-field').val();
-
-        iFrame.contents().find('#mce-EMAIL, #fieldEmail').val(userEmail);
-        iFrame.contents().find('#mce-LNAME, #fieldLastName').val(userLastName);
-        iFrame.contents().find('#mce-FNAME, #fieldFirstName').val(userFirstName);
-        iFrame.contents().find('#mce-FNAME, #fieldName').val(userFullName);
-
-        iFrame.contents().find('form').attr('target', '_blank').submit();
-        return false;
-    });
 
     //Datepicker
-    $('#classdatepicker').pickadate();
+    $('#classdatepicker,#m-classdatepicker').datepicker();
 
     setTimeout(function() {
         $('.loader').addClass('hide-loader');
