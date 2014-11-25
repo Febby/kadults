@@ -312,6 +312,9 @@ $(window).load(function() {
         return false;
     });
 
+    //Datepicker
+    $('#classdatepicker').pickadate();
+
     setTimeout(function() {
         $('.loader').addClass('hide-loader');
         setTimeout(function() {

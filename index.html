@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title>Krav Adults - Trial Class Registration</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/classic.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/classic.date.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
@@ -45,10 +47,10 @@
 									</li>
 									<li><a class="inner-link" href="#about" target="default">about</a></li>
 									<li><a class="inner-link" href="#schedule" target="default">schedule</a></li>
-									<li><a class="inner-link" href="#pricing" target="default">pricing</a></li>
+									<li><a class="inner-link" href="#location" target="default">location</a></li>
 									<li><a class="inner-link" href="#register" target="default">register</a></li>
-									<li class="social-link"><a href="#"><i class="icon social_facebook"></i></a></li>
-									<li class="social-link"><a href="#"><i class="icon social_youtube"></i></a></li>
+									<li class="social-link"><a href="https://www.facebook.com/KMGSingapore?fref=ts"><i class="icon social_facebook"></i></a></li>
+									<li class="social-link"><a href="https://www.youtube.com/channel/UCjnICQSqYmX8TsFPaWjDwpQ"><i class="icon social_youtube"></i></a></li>
 								</ul>
 								<div class="sidebar-menu-toggle"><i class="icon icon_menu"></i></div>
 								<div class="mobile-menu-toggle"><i class="icon icon_menu"></i></div>
@@ -68,10 +70,11 @@
 									<li><a class="inner-link" href="#home" target="default">home</a></li>						
 									<li><a class="inner-link" href="#about" target="default">about</a></li>
 									<li><a class="inner-link" href="#schedule" target="default">schedule</a></li>
-									<li><a class="inner-link" href="#pricing" target="default">pricing</a></li>
+									<li><a class="inner-link" href="#location" target="default">location</a></li>
 									<li><a class="inner-link" href="#register" target="default">register</a></li>
-									<li class="social-link"><a href="#"><i class="icon social_facebook"></i></a></li>
-									<li class="social-link"><a href="#"><i class="icon social_instagram"></i></a></li>
+									<li class="social-link"><a href="https://www.facebook.com/KMGSingapore?fref=ts"><i class="icon social_facebook"></i></a></li>
+									<li class="social-link"><a href="https://www.youtube.com/channel/UCjnICQSqYmX8TsFPaWjDwpQ"><i class="icon social_youtube"></i></a></li>
+									<li class="social-link"><a href="http://instagram.com/kmgsingapore"><i class="icon social_instagram"></i></a></li>
 								</ul>
 							</div>
 					
@@ -114,8 +117,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
-									<h1 class="large-h1 text-white">Book Our Trial Class Now!</h1>
-									<span class="lead text-white">We're gonna make one of those blurry cafe videos and everything, so don't miss out!</span>
+									<h1 class="large-h1 text-white">Register For Krav Maga Trial Class Now!</h1>
+									<span class="lead text-white">For just SGD$18, you can try out Krav Maga. What are you waiting for?!</span>
 								</div>
 								
 								<!-- registration form start -->
@@ -135,12 +138,15 @@
 											<input class="form-email validate-email" type="text" placeholder="Email Address" name="email">
 										</div>
 										<div class="col-sm-6">
-											<input class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
+											<input id="dobdatepicker" class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
 										</div>
 										<div class="col-sm-6">
 											<input class="form-phone" type="text" placeholder="Phone Number" name="phone">
 										</div>
-										<div class="col-sm-6">
+										<div class="col-sm-12">			
+											<input id="classdatepicker" class="form-name validate-required" type="text" placeholder="Select Your Trial Class Time" name="schedule">
+										</div>
+										<div class="col-sm-12">
 											<div class="select-holder">
 												<select class="form-selection validate-required" name="gender">
 													<option value="">Select Gender Type</option>
@@ -149,11 +155,12 @@
 												</select>
 											</div>
 										</div>
-										<div class="col-sm-6">
+
+										<div class="col-sm-12">
 											<div class="select-holder">
 												<select class="form-selection validate-required" name="ticket">
 													<option value="">Trial Class Type</option>
-													<option value="Krav Adults">Krav Adults</option>
+													<option value="KravAdults18">Krav Maga Adults $18</option>
 												</select>
 											</div>
 										</div>
@@ -474,7 +481,7 @@
 				</div><!--end of container-->
 			</section>
 			
-			<a id="pricing" class="in-page-link"></a>
+			<a id="location" class="in-page-link"></a>
 			
 			<section class="duplicatable-content">
 				<div class="container">
@@ -537,167 +544,12 @@
 					</div><!--end of row-->
 				</div><!--end of container-->
 			</section>
-			<section class="pricing-options">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<h1>Pricing Options</h1>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-sm-6">
-							<a href="#">
-								<div class="pricing-option">
-						
-									<div class="dot"></div>
-						
-									<div class="col-md-6 text-center">
-										<span class="dollar">$</span>
-										<span class="price">249</span>
-										<span class="type">Standard Pass</span>
-									</div>
-						
-									<div class="col-md-6">
-										<span class="plan-title">Day 1 &amp; 2 Standard</span>
-										<ul>
-											<li>Main keynote speeches</li>
-											<li>Access to all areas</li>
-											<li>Lunch on day 1</li>
-										</ul>
-									</div>
-								</div>
-							</a>
-						</div><!--end of individual pricing option-->
-					
-						<div class="col-sm-6">
-							<a href="#">
-								<div class="pricing-option">
-						
-									<div class="dot"></div>
-						
-									<div class="col-md-6 text-center">
-										<span class="dollar">$</span>
-										<span class="price">349</span>
-										<span class="type">Silver Pass</span>
-									</div>
-						
-									<div class="col-md-6">
-										<span class="plan-title">Day 1 &amp; 2 Premium</span>
-										<ul>
-											<li>Main keynote speeches</li>
-											<li>Access to all areas</li>
-											<li>Lunch on both days</li>
-										</ul>
-									</div>
-								</div>
-							</a>
-						</div><!--end of individual pricing option-->
-					
-						<div class="col-sm-6">
-							<a href="#">
-								<div class="pricing-option emphasis">
-						
-									<div class="dot"></div>
-						
-									<div class="col-md-6 text-center">
-										<span class="dollar">$</span>
-										<span class="price">399</span>
-										<span class="type">Gold Pass</span>
-									</div>
-						
-									<div class="col-md-6">
-										<span class="plan-title">All Days Pass</span>
-										<ul>
-											<li>Main keynote speeches</li>
-											<li>Access to all areas</li>
-											<li>Lunch on day 1</li>
-										</ul>
-									</div>
-								</div>
-							</a>
-						</div><!--end of individual pricing option-->
-					
-						<div class="col-sm-6">
-							<a href="#">
-								<div class="pricing-option">
-						
-									<div class="dot"></div>
-						
-									<div class="col-md-6 text-center">
-										<span class="dollar">$</span>
-										<span class="price">489</span>
-										<span class="type">Platinum Pass</span>
-									</div>
-						
-									<div class="col-md-6">
-										<span class="plan-title">All Days with Extras</span>
-										<ul>
-											<li>VIP Lounge access</li>
-											<li>Event afterparty ticket</li>
-											<li>Catered breakfast</li>
-										</ul>
-									</div>
-								</div>
-							</a>
-						</div><!--end of individual pricing option-->
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
-			
-			
-			
-			<section class="sponsors">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h1>Proudly sponsored by</h1>
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">
-							<div class="col-md-4 col-sm-6 sponsor-column">
-								<div class="sponsor text-center">
-									<a href="#">
-										<img alt="Sponsor" src="img/sponsor1.png">
-									</a>
-								</div>
-							</div>
-					
-							<div class="col-md-4 col-sm-6 sponsor-column">
-								<div class="sponsor text-center">
-									<a href="#">
-										<img alt="Sponsor" src="img/sponsor2.png">
-									</a>
-								</div>
-							</div>
-					
-							<div class="col-md-4 col-sm-6 sponsor-column">
-								<div class="sponsor text-center">
-									<a href="#">
-										<img alt="Sponsor" src="img/sponsor3.png">
-									</a>
-								</div>
-							</div>
-						
-							
-						</div>
-					</div><!--end of row-->
-				
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<span>Interested in becoming a sponsor? <a href="#">Get in touch</a></span>
-						</div>
-					</div><!--end of row-->
-				</div><!--end of container-->
-			</section>
 			
 			<section class="duplicatable-content visitor-info">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12">
-								<h1>Travel Information</h1>
+								<h1>How To Get Here?</h1>
 							</div>
 						</div><!--end of row-->
 				
@@ -707,10 +559,11 @@
 									<img alt="Venue" src="img/venue.jpg">
 									<h3>Venue</h3>
 									<p>
-										Docklands Convention Centre<br>
-										158 Wurundjeri Way<br>
-										Melbourne, 3000<br><br>
-										<a href="#">See Map</a>
+										Upper Serangoon Shopping Centre<br>
+										765 Upper Serangoon Road<br>
+										#01-03/#02-02<br>
+										Singapore 534626<br>
+										<a href="http://www.kmc.sg/">KMG Site</a>
 									</p>		
 								</div>
 							</div><!--end of individual info box-->
@@ -720,7 +573,8 @@
 									<img alt="Venue" src="img/air.jpg">
 									<h3>Bus</h3>
 									<p>
-										Lorem ipsum dolor sit amet, consectetur do elit adipisicing elit, sed do eiusmod tempor inc ut labore et dolore magna aliqua. 
+										Nearest Bus stop - Bus 80 81 82 101 107 107m 136 153 <br>
+										1min walk from bus stop b63019
 									</p>		
 								</div>
 							</div><!--end of individual info box-->
@@ -728,68 +582,16 @@
 							<div class="col-md-4 col-sm-6">
 								<div class="info-box">
 									<img alt="Venue" src="img/travel.jpg">
-									<h3>Taxi</h3>
+									<h3>MRT</h3>
 									<p>
-										Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+										Serangoon MRT (NE12/cc13) - 9 mins walk from exit D
 									</p>		
 								</div>
 							</div><!--end of individual info box-->
 					
 						</div><!--end of row-->
 				
-						<div class="row">
-							<div class="col-sm-12">
-								<h1>Nearby Accomodation</h1>
-							</div>
-						</div><!--end of row-->
-				
-						<div class="row">
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/hotel1.jpg">
-									<h3>Parkview Hotel</h3>
-									<p>
-										42 Wallaby Way<br>
-										Sydney 2014
-									</p>
-									<div class="text-link">
-										<a href="#">See Map</a>
-										<a href="#">Website</a>
-									</div>		
-								</div>
-							</div><!--end of individual info box-->
-					
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/hotel1.jpg">
-									<h3>Empire Luxury Hotel</h3>
-									<p>
-										200 Collins St<br>
-										Melbourne 3000
-									</p>
-									<div class="text-link">
-										<a href="#">See Map</a>
-										<a href="#">Website</a>
-									</div>			
-								</div>
-							</div><!--end of individual info box-->
-					
-							<div class="col-md-4 col-sm-6">
-								<div class="info-box">
-									<img alt="Venue" src="img/hotel1.jpg">
-									<h3>Walter Plaza</h3>
-									<p>
-										235 Exhibition St<br>
-										Melbourne 3000
-									</p>
-									<div class="text-link">
-										<a href="#">See Map</a>
-										<a href="#">Website</a>
-									</div>			
-								</div>
-							</div><!--end of individual info box-->
-					
-						</div><!--end of row-->
+
 					</div><!--end of container-->
 				</section>
 			
@@ -828,6 +630,8 @@
 		<div class="footer-container"></div>
 				
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
+        <script src="js/picker.js"></script>
+        <script src="js/picker.date.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/skrollr.min.js"></script>
         <script src="js/spectragram.min.js"></script>
