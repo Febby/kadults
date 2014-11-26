@@ -136,7 +136,7 @@
 											<input class="form-email validate-email" type="text" placeholder="Email Address" name="email">
 										</div>
 										<div class="col-sm-6">
-											<input class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
+											<input id="dobpicker" class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
 										</div>
 										<div class="col-sm-6">
 											<input class="form-phone" type="text" placeholder="Phone Number" name="phone">
@@ -152,7 +152,16 @@
 											</div>
 										</div>
 										<div class="col-sm-6">
-											<input id="classdatepicker" class="form-name validate-required" type="text" placeholder="Trial Class Time" name="schedule">
+											<div class="select-holder">
+												<select class="form-selection validate-required" name="ticket">
+													<option value="">Trial Class Time</option>
+													<option value="monday">Monday</option>
+													<option value="tuesday">Tuesday</option>
+													<option value="wednesday">Wednesday</option>
+													<option value="thursday">Thursday</option>
+													<option value="saturday">Saturday</option>
+												</select>
+											</div>
 										</div>
 										<div class="col-sm-6">
 											<div class="select-holder">
@@ -227,13 +236,22 @@
 								<input class="form-email validate-email" type="text" placeholder="Email Address" name="email">
 							</div>
 							<div class="col-sm-12">
-								<input class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
+								<input id="mob-dobpicker" class="form-email validate-required" type="text" placeholder="Date Of Birth" name="DOB">
 							</div>
 							<div class="col-sm-12">
 								<input class="form-phone" type="text" placeholder="Phone Number" name="phone">
 							</div>
 							<div class="col-sm-12">
-								<input id="m-classdatepicker" class="form-name validate-required" type="text" placeholder="Select Your Trial Class Time" name="schedule">
+								<div class="select-holder">
+												<select class="form-selection validate-required" name="ticket">
+													<option value="">Trial Class Time</option>
+													<option value="monday">Monday</option>
+													<option value="tuesday">Tuesday</option>
+													<option value="wednesday">Wednesday</option>
+													<option value="thursday">Thursday</option>
+													<option value="saturday">Saturday</option>
+												</select>
+											</div>
 							</div>
 							<div class="col-sm-12">
 								<div class="select-holder">
@@ -276,33 +294,21 @@
 			<!-- schedule start -->
 			<section class="schedule">
 				<div class="container">
+					<!-- start row -->
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
-							<h1 class="text-center">December 3</h1>
+							<h1 class="text-center">Monday</h1>
 							<ul class="schedule-overview">
-								<li>
-									<div class="schedule-title">
-										<span class="time">9:30am - 11:30am</span>
-										<span class="title">Welcome &amp; Registration</span>
-									</div>
-									
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
 								
 								<li>
 									<div class="schedule-title">
-										<span class="time">11:30am - 1pm</span>
+										<span class="time">6:30 PM</span>
 										<span class="title">Fighting Skill Training</span>
 									</div>
 									
 									<div class="schedule-text">
 										<p>
-											Striking, Defending Common Hand & leg Attacks / Break falls/rolls
+											Striking, Defending Common Hand &amp; leg Attacks / Break falls/rolls
 										</p>
 									</div>
 									
@@ -313,28 +319,10 @@
 									</div>
 								</li><!--end of individual schedule item-->
 								
+		
 								<li>
 									<div class="schedule-title">
-										<span class="time">1pm - 2pm</span>
-										<span class="title">Release From Grabs Training</span>
-									</div>
-									
-									<div class="schedule-text">
-										<p>
-											Defense againts chokes/Headlocks/hair grabs/ wrist grabs/shirt grabs/ bear hugs
-										</p>
-									</div>
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
-								
-								<li>
-									<div class="schedule-title">
-										<span class="time">2pm - 3:30pm</span>
+										<span class="time">7:45 PM</span>
 										<span class="title">Weapon Defense Training</span>
 									</div>
 									
@@ -354,45 +342,12 @@
 						</div>
 						
 						<div class="col-md-4 col-sm-6">
-							<h1 class="text-center">December 4</h1>
+							<h1 class="text-center">Tuesday</h1>
 							<ul class="schedule-overview">
-								<li>
+
+							<li>
 									<div class="schedule-title">
-										<span class="time">9:30am - 11:30am</span>
-										<span class="title">Welcome &amp; Registration</span>
-									</div>
-									
-									
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
-								
-								<li>
-									<div class="schedule-title">
-										<span class="time">11:30am - 1pm</span>
-										<span class="title">Fighting Skill Training</span>
-									</div>
-									
-									<div class="schedule-text">
-										<p>
-											Striking, Defending Common Hand &amp; leg Attacks / Break falls/rolls
-										</p>
-									</div>
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
-								
-								<li>
-									<div class="schedule-title">
-										<span class="time">1pm - 2pm</span>
+										<span class="time">6:30 PM</span>
 										<span class="title">Release From Grabs Training</span>
 									</div>
 									
@@ -411,13 +366,13 @@
 								
 								<li>
 									<div class="schedule-title">
-										<span class="time">2pm - 3:30pm</span>
-										<span class="title">Weapon Defense Training</span>
+										<span class="time">7:45 PM</span>
+										<span class="title">Fighting Skill Training</span>
 									</div>
 									
 									<div class="schedule-text">
 										<p>
-											Dealing with attacks and threats from common weapon such as knives, stick-like objects and fire amrs
+											Striking, Defending Common Hand &amp; leg Attacks / Break falls/rolls
 										</p>
 									</div>
 									
@@ -427,34 +382,23 @@
 										<div class="bottom"></div>
 									</div>
 								</li><!--end of individual schedule item-->
+								
 							</ul>
 						</div>
 						
 						<div class="col-md-4 col-sm-6">
-							<h1 class="text-center">December 5</h1>
+							<h1 class="text-center">Wednesday</h1>
 							<ul class="schedule-overview">
-								<li>
-									<div class="schedule-title">
-										<span class="time">9:30am - 11:30am</span>
-										<span class="title">Welcome &amp; Registration</span>
-									</div>
-									
-									<div class="marker-pin">
-										<div class="top"></div>
-										<div class="middle"></div>
-										<div class="bottom"></div>
-									</div>
-								</li><!--end of individual schedule item-->
 								
 								<li>
 									<div class="schedule-title">
-										<span class="time">11:30am - 1pm</span>
-										<span class="title">Fighting Skill Training</span>
+										<span class="time">6:30 PM</span>
+										<span class="title">Weapon Defense Training</span>
 									</div>
 									
 									<div class="schedule-text">
 										<p>
-											Striking, Defending Common Hand &amp; leg Attacks / Break falls/rolls
+											Dealing with attacks and threats from common weapon such as knives, stick-like objects and fire amrs
 										</p>
 									</div>
 									
@@ -464,10 +408,10 @@
 										<div class="bottom"></div>
 									</div>
 								</li><!--end of individual schedule item-->
-								
+
 								<li>
 									<div class="schedule-title">
-										<span class="time">1pm - 2pm</span>
+										<span class="time">7:45 PM</span>
 										<span class="title">Release From Grabs Training</span>
 									</div>
 									
@@ -484,9 +428,38 @@
 									</div>
 								</li><!--end of individual schedule item-->
 								
+								
+							</ul>
+						</div>
+					</div>
+					<!--end of row-->
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h1 class="text-center">Thursday</h1>
+							<ul class="schedule-overview">
 								<li>
 									<div class="schedule-title">
-										<span class="time">2pm - 3:30pm</span>
+										<span class="time">6:30 PM</span>
+										<span class="title">Fighting Skill Training</span>
+									</div>
+									
+									<div class="schedule-text">
+										<p>
+											Striking, Defending Common Hand &amp; leg Attacks / Break falls/rolls
+										</p>
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">7:45 PM</span>
 										<span class="title">Weapon Defense Training</span>
 									</div>
 									
@@ -504,7 +477,39 @@
 								</li><!--end of individual schedule item-->
 							</ul>
 						</div>
-					</div><!--end of row-->
+						<div class="col-md-6 col-sm-6">
+							<h1 class="text-center">Saturday</h1>
+							<ul class="schedule-overview">
+						
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">10:00 AM</span>
+										<span class="title">Random Class</span>
+									</div>																		
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+								<li>
+									<div class="schedule-title">
+										<span class="time">11:10 AM</span>
+										<span class="title">Random Class</span>
+									</div>
+									
+									<div class="marker-pin">
+										<div class="top"></div>
+										<div class="middle"></div>
+										<div class="bottom"></div>
+									</div>
+								</li><!--end of individual schedule item-->
+								
+							</ul>
+						</div>
+					</div>
 				</div><!--end of container-->
 			</section>
 			<!-- schedule end -->

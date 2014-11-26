@@ -295,7 +295,7 @@ $(window).load(function() {
 
 
     //Datepicker
-    $('#classdatepicker,#m-classdatepicker').datepicker();
+    $('#dobpicker,#mob-dobpicker').datepicker();
 
     setTimeout(function() {
         $('.loader').addClass('hide-loader');
